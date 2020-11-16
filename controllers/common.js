@@ -152,8 +152,6 @@ function getRandomArticle (cb) {
       // 传递错误信息到async最终方法
       cb (Constant.DEFAULT_ERROR);
     });
-
-
 }
 
 /**

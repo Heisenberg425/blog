@@ -12,7 +12,7 @@ const Article = db.define('Article', {
   id: {type: Sequelize.INTEGER, primaryKey: true, allowNull: false, autoIncrement: true},
   // 文章标题
   title: {type: Sequelize.STRING(30), allowNull: false},
-  // 文章摘要
+  // 文章摘要 describing
   desc: {type: Sequelize.STRING, allowNull: false},
   // 文章内容
   content: {type: Sequelize.TEXT, allowNull: false},

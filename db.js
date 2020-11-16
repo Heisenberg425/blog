@@ -3,7 +3,7 @@ var Sequelize = require('sequelize');
 // 引入数据库连接配置
 var CONFIG = require('./config');
 
-// 实例化数据库对象
+// 实例化数据库对象   db.js就是连接数据库的作用
 var sequelize = new Sequelize(CONFIG.MYSQL.database, CONFIG.MYSQL.username, CONFIG.MYSQL.password, {
   host: CONFIG.MYSQL.host,
   // 数据库类型

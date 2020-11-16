@@ -4,7 +4,7 @@ var express = require ('express');
 var router = express.Router ();
 // 引入我们自定义的controller
 const IndexController = require('../controllers/index');
-// 定义首页路由
+// 定义首页路由 前端展示系统只有4个路由，相对简单许多
 router.get ('/', IndexController.index);
 // 定义分类页路由
 router.get ('/cate/:cateId', IndexController.cate);
